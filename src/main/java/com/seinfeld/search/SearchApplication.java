@@ -31,7 +31,7 @@ public class SearchApplication {
         return args -> {
             Faker faker = new Faker();
 
-            for (int i = 0; i < 40; i++) {
+            for (int i = 0; i < 20; i++) {
                 Address address = new Address();
                 address.setCity(faker.address().cityName());
                 List<Subject> subjects = new ArrayList<>();
